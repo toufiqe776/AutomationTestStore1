@@ -25,6 +25,7 @@ public class TC_NavigateRandomCategory extends BaseClass {
 
 	        System.out.println("Navigating to category: " + selectedName);
 	        selectedCategory.click();
+	        System.out.println("My chanes is done");
 
 	        // After navigation, check for visible products
 	        categoryPage category = new categoryPage(driver);
